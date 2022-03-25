@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.main-sidebar {
+    background-color: #0D28A6;
+}
+
+.nav .nav-item .nav-link {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub-sidebar .nav .nav-item .nav-link{
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.login-wrapper {
+    background: url(/img/car-sign-in.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 482px;
+    height: 100vh;
+    margin-left: auto;
+    padding: 55px 57px 55px 55px;
+    background: #ffffff;
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+    .btn-login {
+        padding: 8px 12px;
+        margin-top: 32px;
+        color: #ffffff;
+        background: #0D28A6;
+        border-radius: 4px !important;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        transition: ease .3s;
+    }
+    img {
+        margin-bottom: 35px;
+    }
+}
+
+.login-content {
+    width: 100%;
+}

@@ -1,0 +1,97 @@
+<div id="wrapper" class="d-flex wrapper">
+  <!-- Sidebar Start -->
+  <div class="d-flex">
+      <div class="main-sidebar d-flex flex-column" style="width: 70px; height: 100vh;">
+          <a href="/" class="d-block p-3 text-decoration-none" title data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="icon-only">
+              <img src="img/logo-rectt.png" style="width: 100%; height: 35px;" alt>
+          </a>
+          <ul class="nav flex-column mb-auto text-center">
+              <li class="nav-item w-100">
+                <a href="a" class="nav-link p-0 py-3" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                  <img src="/img/dashboard.png" class="mb-1" alt="dashboard">
+                  Dashboard
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link py-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Cars">
+                  <img src="/img/fi_truck.png" class="mb-1" alt="cars">
+                  Cars
+                </a>
+              </li>
+          </ul>
+      </div>
+
+      <div id="sidebar-wrapper" class="sub-sidebar d-flex flex-column">
+          <a href="/" class="d-block p-3 side-header text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+              <img src="/img/logo_rect_long.png" style="width: 100px; height: 35px;" alt="">
+          </a>
+          <ul class="nav flex-column mb-auto text-center">
+              <li class="nav-header px-3 py-3 mt-3">DASHBOARD</li>
+              <li class="nav-item w-100">
+                <a href="#" class="nav-link px-3 py-3" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                  Dashboard
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  <!-- Sidebar End -->
+</div>
+
+<div class="wrapper row">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <i class="fa-solid fa-bars" id="sidebar-btn"></i>
+      <div class="navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn search-btn my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-expanded="false">U
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Profile</a>
+                      <div class="dropdown-divider"></div>
+                      <form action="/logout" method="POST">
+                          <button type="submit" class="dropdown-item">Sign out</button>
+                      </form>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <div class="sidebar">
+      <div class="row h-100">
+          <div class="main text-center h-100">
+              <img src="images/logo.png" class="logo" alt="bcr-logo">
+              <ul class="w-100">
+                  <a href="/dashboard">
+                      <li class="active">
+                          <i class="fa-solid fa-house fa-xl icon"></i>
+                          <p class="my-2 text-center">Dashboard</p>
+                      </li>
+                  </a>
+                  <a href="/car">
+                      <li>
+                          <i class="fa-solid fa-car-side fa-xl icon"></i>
+                          <p class="my-2">Cars</p>
+                      </li>
+                  </a>
+              </ul>
+          </div>
+          <div class="sub-main">
+              <h4>Binar</h4>
+              <h6 class="sub-main-title text-uppercase">Dashboard</h6>
+              <ul>
+                  <a href="#">
+                      <li>
+                          <h6>Dashboard</h6>
+                      </li>
+                  </a>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
